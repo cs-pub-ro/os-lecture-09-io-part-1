@@ -27,6 +27,7 @@
 - I/O interface for processes
 - **diagram**: pointers for channel structures
 - creating new entries
+- **demo**: file descriptor table size
 
 ## 4. Types of I/O Channels
 
@@ -50,7 +51,7 @@
 - file pointer
 - reference to actual file information
 - reference counter
-- **demo**: file pointer
+- **demo**: file permissions
 
 ## 6. File Channel Operations
 
