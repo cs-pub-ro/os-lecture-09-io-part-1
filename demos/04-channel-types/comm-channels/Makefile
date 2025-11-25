@@ -67,3 +67,9 @@ clean:
 	-rm -f reader.o reader
 	-rm -f writer.o writer
 	-rm -f sock_util.o
+	-rm -f receive_net_dgram_socket.o receive_net_dgram_socket
+	-rm -f receive_unix_socket.o receive_unix_socket
+	-rm -f send_net_dgram_socket.o send_net_dgram_socket
+	-rm -f send_unix_socket.o send_unix_socket
+	-rm -f receive_net_stream_socket.o receive_net_stream_socket
+	-rm -f send_net_stream_socket.o send_net_stream_socket
