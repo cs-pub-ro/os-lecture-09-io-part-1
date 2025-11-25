@@ -22,7 +22,7 @@ int main(void)
 	fd = open(file_path, O_RDONLY);
 	DIE(fd < 0, "open");
 
-	/* Write to file. */
+	/* Read from file. */
 	rc = read(fd, buffer, BUFSIZ);
 	DIE(rc < 0, "read");
 
