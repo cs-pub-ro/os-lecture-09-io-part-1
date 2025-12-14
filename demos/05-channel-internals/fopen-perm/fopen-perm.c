@@ -18,10 +18,6 @@ int main(void)
 	DIE(f == NULL, "fopen");
 	fclose(f);
 
-	f = fopen("aaa", "rw");
-	DIE(f == NULL, "fopen");
-	fclose(f);
-
 	f = fopen("aaa", "r+");
 	DIE(f == NULL, "fopen");
 	fclose(f);
