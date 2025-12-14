@@ -21,7 +21,7 @@ int main(void)
 	struct timespec time_before, time_after;
 	int fd;
 
-	fd = open("f.dat", O_WRONLY | O_CREAT | 0644);
+	fd = open("f.dat", O_WRONLY | O_CREAT, 0644);
 	DIE(fd < 0, "fopen");
 
 	clock_gettime(CLOCK_REALTIME, &time_before);
